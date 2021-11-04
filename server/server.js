@@ -6,7 +6,7 @@ let app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static("/client"));
+app.use(express.static("client"));
 app.use("/api", apiRouter);
 
 app.listen(3000);
