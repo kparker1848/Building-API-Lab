@@ -9,7 +9,7 @@
     <title>Building API Lab</title>
 </head>
 <body>
-    <div class="d-flex flex-wrap container">
+    <div class="d-flex flex-wrap justify-content-evenly container">
         <form class="col-4 m-3">
             <div class="mb-3">
               <label for="user" class="form-label">User:</label>
@@ -17,9 +17,9 @@
             </div>
             <div class="mb-3">
               <label for="chirp" class="form-label">Chirp:</label>
-              <input type="chirp" class="form-control" id="chirp">
+              <textarea class="form-control" id="chirp"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Add Chirp</button>
+            <button type="submit" class="btn btn-primary" id="chirpButton">Add Chirp</button>
           </form>
         <div class="chirpbox col-4 m-3" id="chirpbox">
 
